@@ -26,6 +26,7 @@ public class SumOfTwoNos {
         double num2 = scan.nextDouble();
 
         System.out.println("Sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
+        scan.close();
     }
 }
 
