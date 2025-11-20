@@ -8,7 +8,7 @@ package basics;
  * Author       : Sribinu P
  * Created On   : 17-11-2025
  * Topic        : Hello Java
- * Difficulty   : VERY EASY
+ * Difficulty   : Very Easy
  * Description  : First Program
  * ----------------------------------------------------------
  */
