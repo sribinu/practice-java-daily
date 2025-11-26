@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Title        : PrimeCheck.java
  * Author       : Sribinu P
  * Created On   : 25-11-2025
- * Topic        : Prime number check
+ * Topic        : Number check (Prime)
  * Difficulty   : Easy
  * Description  : This program checks whether a given number is a prime number.
  * ----------------------------------------------------------
