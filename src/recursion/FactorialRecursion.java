@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Created On   : 30-11-2025
  * Topic        : Factorial (using recursion)
  * Difficulty   : Easy
- * Description  : This program calculates factorial of a number using  a recursive function where n! = n × (n-1)!.
+ * Description  : This program calculates factorial of a number using a recursive function where n! = n × (n-1)!.
  * ----------------------------------------------------------
  */
 

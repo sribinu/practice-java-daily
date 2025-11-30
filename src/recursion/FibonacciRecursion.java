@@ -19,7 +19,7 @@ public class FibonacciRecursion {
 
     public static void main(String[] args) {
         // Program RE2: FibonacciRecursion
-        // Calls recursive fib() for each term.
+        // Calls recursive fibonacci() for each term.
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter number of terms: ");
