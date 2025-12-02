@@ -1,0 +1,5 @@
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter N: ");
+        int n = scan.nextInt();
+
+        scan.close();
