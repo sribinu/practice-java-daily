@@ -1,6 +1,6 @@
-# Pattern Program Questions
+# Star Pattern Program Questions
 
-## Star Patterns
+## Basic Star Patterns
 
 ### 1. Filled Square
 Print a filled square pattern of '*' of size N × N. (Here, N = 5)
@@ -53,6 +53,7 @@ Print an "X" cross inside a border (frame) of '*' for size N. (Here, N = 7)
 * *       * * 
 * * * * * * *  
 ```
+## Triangle Star Patterns
 
 ### 6. Right Triangle (Filled)
 Print a right-angled triangle of '*' with height N (left aligned). (Here, N = 5)
@@ -131,5 +132,64 @@ Print a hollow inverted left triangle of '*' with height N. (Here, N = 5)
   *     * 
     *   * 
       * * 
+        * 
+```
+
+### 14. Centered Right Triangle (Filled)
+Print a centered triangle (right-aligned) of '*' with height N. (Here, N = 5)
+```
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+```
+### 15. Centered Inverted Triangle (Filled)
+Print a centered inverted triangle (right-aligned) of '*' with height N. (Here, N = 5)
+```
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+```
+
+### 16. Pyramid (Filled)
+Print a pyramid of '*' (centered) with N rows. (Here, N = 5)
+```
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+```
+
+### 17. Inverted Pyramid (Filled)
+Print an inverted centered pyramid of '*' with N rows. (Here, N = 5)
+```
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+```
+
+### 18. Hollow Triangle (Hollow Pyramid)
+Print a hollow triangle of '*' with height N. (Here, N = 5)
+```
+        * 
+      *   * 
+    *       * 
+  *           * 
+* * * * * * * * * 
+```
+
+### 19. Hollow Inverted Triangle (Hollow Inverted Pyramid)
+Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
+```
+* * * * * * * * * 
+  *           * 
+    *       * 
+      *   * 
         * 
 ```
