@@ -193,3 +193,35 @@ Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
       *   * 
         * 
 ```
+
+## Diamond Star Patterns
+
+### 20. Print a filled diamond pattern using '*' with N rows (odd height). (Here, N = 10)
+```
+          * 
+        * * * 
+      * * * * * 
+    * * * * * * * 
+  * * * * * * * * * 
+* * * * * * * * * * * 
+  * * * * * * * * * 
+    * * * * * * * 
+      * * * * * 
+        * * * 
+          * 
+```
+
+### 21. Print a hollow diamond of '*' (only borders). (Here, N = 10)
+```
+          * 
+        *   * 
+      *       * 
+    *           * 
+  *               * 
+*                   * 
+  *               * 
+    *           * 
+      *       * 
+        *   * 
+          * 
+```
