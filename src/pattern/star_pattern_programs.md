@@ -53,6 +53,7 @@ Print an "X" cross inside a border (frame) of '*' for size N. (Here, N = 7)
 * *       * * 
 * * * * * * *  
 ```
+
 ## Triangle Star Patterns
 
 ### 6. Right Triangle (Filled)
@@ -194,9 +195,8 @@ Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
         * 
 ```
 
-## Diamond Star Patterns
-
-### 20. Print a filled diamond pattern using '*' with N rows (odd height). (Here, N = 10)
+### 20. Diamond (Filled) 
+Print a filled diamond pattern using '*' with N rows (odd height). (Here, N = 10)
 ```
           * 
         * * * 
@@ -211,7 +211,8 @@ Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
           * 
 ```
 
-### 21. Print a hollow diamond of '*' (only borders). (Here, N = 10)
+### 21. Hollow Diamond
+Print a hollow diamond of '*' (only borders). (Here, N = 10)
 ```
           * 
         *   * 
@@ -224,4 +225,60 @@ Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
       *       * 
         *   * 
           * 
+```
+
+### 22. Right Pascal Triangle (Filled)
+Print a Right Pascal triangle pattern (ascending right triangle then descending). (Here, N = 5)
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+```
+
+### 23. Left Pascal Triangle (Filled)
+Print a Left Pascal triangle (mirror of Right Pascal). (Here, N = 5)
+```
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
+```
+
+### 24. Hollow Right Pascal Triangle
+Print a hollow Right Pascal pattern (outline only). (Here, N = 5)
+```
+* 
+* * 
+*   * 
+*     * 
+*       * 
+*     * 
+*   * 
+* * 
+* 
+```
+
+### 25. Hollow Left Pascal Triangle
+Print a hollow Left Pascal pattern (outline only). (Here, N = 5)
+```
+        *         
+      * *       
+    *   *     
+  *     *   
+*       * 
+  *     *   
+    *   *     
+      * *       
+        * 
 ```
