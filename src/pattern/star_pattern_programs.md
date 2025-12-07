@@ -282,3 +282,70 @@ Print a hollow Left Pascal pattern (outline only). (Here, N = 5)
       * *       
         * 
 ```
+
+### 26. K Pattern
+Print a K pattern. (Here, N = 5)
+```
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
+
+### 27. Right Aligned K Pattern
+Print a Right Aligned K pattern. (Here, N = 5)
+```
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+```
+
+### 28. Double Hill
+Print a double hill pattern. (Here, N = 5) 
+```
+    *         * 
+   * *       * * 
+  * * *     * * * 
+ * * * *   * * * * 
+* * * * * * * * * * 
+```
+
+### 29. Butterfly
+Print a butterfly pattern made of '*' with wings expanding and contracting. (Here, N = 5)
+```
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+```
+
+### 30. Hollow Butterfly
+Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
+```
+*                 *         
+* *             * *       
+*   *         *   *     
+*     *     *     *   
+*       * *       * 
+*       * *       * 
+*     *     *     *   
+*   *         *   *     
+* *             * *       
+*                 * 
+```
