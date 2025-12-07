@@ -321,7 +321,17 @@ Print a double hill pattern. (Here, N = 5)
 * * * * * * * * * * 
 ```
 
-### 29. Butterfly
+### 29. Hollow Double Hill
+Prints a hollow double hill pattern. (Here, N = 5)
+```
+    *         * 
+   * *       * * 
+  *   *     *   * 
+ *     *   *     * 
+* * * * * * * * * * 
+```
+
+### 30. Butterfly
 Print a butterfly pattern made of '*' with wings expanding and contracting. (Here, N = 5)
 ```
 *        *
@@ -335,7 +345,7 @@ Print a butterfly pattern made of '*' with wings expanding and contracting. (Her
 *        *
 ```
 
-### 30. Hollow Butterfly
+### 31. Hollow Butterfly
 Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 ```
 *                 *         
