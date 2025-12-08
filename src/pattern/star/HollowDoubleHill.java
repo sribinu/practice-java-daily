@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT29
+ * Program No   : SPT31
  * Question     : Print a hollow double hill pattern
  * Title        : HollowDoubleHill.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class HollowDoubleHill {
 
     public static void main(String[] args) {
-        // Program SPT29: HollowDoubleHill
+        // Program SPT31: HollowDoubleHill
         // Left hill → gap → right hill; gap = 2×(n − row), stars = row.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

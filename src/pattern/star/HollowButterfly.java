@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT31
+ * Program No   : SPT33
  * Question     : Print a hollow butterfly pattern (wing outlines only).
  * Title        : HollowButterfly.java
  * Author       : Sribinu P

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT30
+ * Program No   : SPT32
  * Question     : Print a butterfly pattern made of '*' with wings expanding and contracting.
  * Title        : Butterfly.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Butterfly {
 
     public static void main(String[] args) {
-        // Program SPT30: Butterfly
+        // Program SPT32: Butterfly
         // Left wing = increasing stars, Right wing = same, Middle gap = 2(N-i) spaces
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

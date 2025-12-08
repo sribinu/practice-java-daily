@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT28
+ * Program No   : SPT30
  * Question     : Print a double hill pattern
  * Title        : DoubleHill.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class DoubleHill {
 
     public static void main(String[] args) {
-        // Program SPT28: DoubleHill
+        // Program SPT30: DoubleHill
         // Left hill → gap → right hill; gap = 2×(n − row), stars = row.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

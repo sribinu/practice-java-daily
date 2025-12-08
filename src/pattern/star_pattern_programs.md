@@ -283,7 +283,7 @@ Print a hollow Left Pascal pattern (outline only). (Here, N = 5)
         * 
 ```
 
-### 26. K Pattern
+### 26. K Pattern (Filled)
 Print a K pattern. (Here, N = 5)
 ```
 * * * * * 
@@ -297,7 +297,7 @@ Print a K pattern. (Here, N = 5)
 * * * * * 
 ```
 
-### 27. Right Aligned K Pattern
+### 27. Right Aligned K Pattern (Filled)
 Print a Right Aligned K pattern. (Here, N = 5)
 ```
 * * * * * 
@@ -311,7 +311,35 @@ Print a Right Aligned K pattern. (Here, N = 5)
 * * * * * 
 ```
 
-### 28. Double Hill
+### 28. Hollow K Pattern
+Print a hollow K pattern. (Here, N = 5)
+```
+* * * * *   
+*     *     
+*   *       
+* *         
+*           
+* *         
+*   *       
+*     *     
+* * * * *   
+```
+
+### 29. Hollow Right Aligned K Pattern
+Print a hollow Right Aligned K pattern. (Here, N = 5)
+```
+* * * * * 
+  *     * 
+    *   * 
+      * * 
+        * 
+      * * 
+    *   * 
+  *     * 
+* * * * * 
+```
+
+### 30. Double Hill (Filled)
 Print a double hill pattern. (Here, N = 5) 
 ```
     *         * 
@@ -321,7 +349,7 @@ Print a double hill pattern. (Here, N = 5)
 * * * * * * * * * * 
 ```
 
-### 29. Hollow Double Hill
+### 31. Hollow Double Hill
 Prints a hollow double hill pattern. (Here, N = 5)
 ```
     *         * 
@@ -331,7 +359,7 @@ Prints a hollow double hill pattern. (Here, N = 5)
 * * * * * * * * * * 
 ```
 
-### 30. Butterfly
+### 32. Butterfly (Filled)
 Print a butterfly pattern made of '*' with wings expanding and contracting. (Here, N = 5)
 ```
 *        *
@@ -345,7 +373,7 @@ Print a butterfly pattern made of '*' with wings expanding and contracting. (Her
 *        *
 ```
 
-### 31. Hollow Butterfly
+### 33. Hollow Butterfly
 Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 ```
 *                 *         
@@ -358,4 +386,32 @@ Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 *   *         *   *     
 * *             * *       
 *                 * 
+```
+
+### 34. Hourglass / Sandglass Pattern (Filled)
+Print an hourglass (sandglass) pattern using '*' of height 2N. (Here, N = 5)
+```
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+```
+
+### 35. Hollow Hourglass / Sandglass Pattern
+Print a hollow hourglass pattern (only edges). (Here, N = 5)
+```
+* * * * * * * * * 
+  *           * 
+    *       * 
+      *   * 
+        * 
+      *   * 
+    *       * 
+  *           * 
+* * * * * * * * * 
 ```
