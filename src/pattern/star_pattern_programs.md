@@ -359,7 +359,7 @@ Prints a hollow double hill pattern. (Here, N = 5)
 * * * * * * * * * * 
 ```
 
-### 32. Butterfly (Filled)
+### 32. Butterfly / Bow Tie (Filled)
 Print a butterfly pattern made of '*' with wings expanding and contracting. (Here, N = 5)
 ```
 *        *
@@ -373,7 +373,7 @@ Print a butterfly pattern made of '*' with wings expanding and contracting. (Her
 *        *
 ```
 
-### 33. Hollow Butterfly
+### 33. Hollow Butterfly / Bow Tie
 Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 ```
 *                 *         
@@ -414,4 +414,54 @@ Print a hollow hourglass pattern (only edges). (Here, N = 5)
     *       * 
   *           * 
 * * * * * * * * * 
+```
+
+### 36. Rhombus (Filled)
+Print a filled rhombus pattern of '*' with width N. (Here, N = 5)
+```
+        * * * * * 
+      * * * * * 
+    * * * * * 
+  * * * * * 
+* * * * * 
+```
+
+### 37. Hollow Rhombus
+Print a hollow rhombus (tilted square) using '*'. (Here, N = 5)
+```
+        * * * * * 
+      *       * 
+    *       * 
+  *       * 
+* * * * * 
+```
+
+```
+* * * * * * * * * * 
+ * * * *   * * * * 
+  * * *     * * * 
+   * *       * * 
+    *         * 
+```
+
+
+```
+* * * * * * * * * * 
+ *     *   *     * 
+  *   *     *   * 
+   * *       * * 
+    *         * 
+```
+
+```
+* * * * * * * * * * 
+* * * *     * * * * 
+* * *         * * * 
+* *             * * 
+*                 * 
+*                 * 
+* *             * * 
+* * *         * * * 
+* * * *     * * * * 
+* * * * * * * * * * 
 ```

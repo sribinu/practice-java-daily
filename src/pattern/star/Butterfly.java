@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Title        : Butterfly.java
  * Author       : Sribinu P
  * Created On   : 07-12-2025
- * Topic        : Star Pattern (Butterfly)
+ * Topic        : Star Pattern (Butterfly / Bow Tie)
  * Difficulty   : Medium
  * Description  : Prints a butterfly pattern
  * ----------------------------------------------------------
