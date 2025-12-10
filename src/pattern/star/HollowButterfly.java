@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT33
+ * Program No   : SPT35
  * Question     : Print a hollow butterfly pattern (wing outlines only).
  * Title        : HollowButterfly.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class HollowButterfly {
 
     public static void main(String[] args) {
-        // Program SPT31: HollowButterfly
+        // Program SPT35: HollowButterfly
         // For each row print left-wing outline, middle gap, right-wing outline. Mirror for lower half.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

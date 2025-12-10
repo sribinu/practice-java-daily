@@ -195,6 +195,8 @@ Print a hollow inverted triangle of '*' with height N. (Here, N = 5)
         * 
 ```
 
+## Intermediate Star Patterns
+
 ### 20. Diamond (Filled) 
 Print a filled diamond pattern using '*' with N rows (odd height). (Here, N = 10)
 ```
@@ -339,6 +341,8 @@ Print a hollow Right Aligned K pattern. (Here, N = 5)
 * * * * * 
 ```
 
+## Advanced Star Patterns
+
 ### 30. Double Hill (Filled)
 Print a double hill pattern. (Here, N = 5) 
 ```
@@ -359,7 +363,27 @@ Prints a hollow double hill pattern. (Here, N = 5)
 * * * * * * * * * * 
 ```
 
-### 32. Butterfly / Bow Tie (Filled)
+### 32. Inverted Double Hill (Filled)
+Print an inverted double hill pattern. (Here, N = 5)
+```
+* * * * * * * * * * 
+ * * * *   * * * * 
+  * * *     * * * 
+   * *       * * 
+    *         * 
+```
+
+### 33. Hollow Inverted Double Hill
+Print a hollow inverted double hill pattern. (Here, N = 5)
+```
+* * * * * * * * * * 
+ *     *   *     * 
+  *   *     *   * 
+   * *       * * 
+    *         * 
+```
+
+### 34. Butterfly / Bow Tie (Filled)
 Print a butterfly pattern made of '*' with wings expanding and contracting. (Here, N = 5)
 ```
 *        *
@@ -373,7 +397,7 @@ Print a butterfly pattern made of '*' with wings expanding and contracting. (Her
 *        *
 ```
 
-### 33. Hollow Butterfly / Bow Tie
+### 35. Hollow Butterfly / Bow Tie
 Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 ```
 *                 *         
@@ -388,7 +412,7 @@ Print a hollow butterfly pattern (wing outlines only). (Here, N = 5)
 *                 * 
 ```
 
-### 34. Hourglass / Sandglass Pattern (Filled)
+### 36. Hourglass / Sandglass Pattern (Filled)
 Print an hourglass (sandglass) pattern using '*' of height 2N. (Here, N = 5)
 ```
 * * * * * * * * * 
@@ -402,7 +426,7 @@ Print an hourglass (sandglass) pattern using '*' of height 2N. (Here, N = 5)
 * * * * * * * * * 
 ```
 
-### 35. Hollow Hourglass / Sandglass Pattern
+### 37. Hollow Hourglass / Sandglass Pattern
 Print a hollow hourglass pattern (only edges). (Here, N = 5)
 ```
 * * * * * * * * * 
@@ -416,7 +440,7 @@ Print a hollow hourglass pattern (only edges). (Here, N = 5)
 * * * * * * * * * 
 ```
 
-### 36. Rhombus (Filled)
+### 38. Rhombus (Filled)
 Print a filled rhombus pattern of '*' with width N. (Here, N = 5)
 ```
         * * * * * 
@@ -426,7 +450,7 @@ Print a filled rhombus pattern of '*' with width N. (Here, N = 5)
 * * * * * 
 ```
 
-### 37. Hollow Rhombus
+### 39. Hollow Rhombus
 Print a hollow rhombus (tilted square) using '*'. (Here, N = 5)
 ```
         * * * * * 
@@ -436,23 +460,8 @@ Print a hollow rhombus (tilted square) using '*'. (Here, N = 5)
 * * * * * 
 ```
 
-```
-* * * * * * * * * * 
- * * * *   * * * * 
-  * * *     * * * 
-   * *       * * 
-    *         * 
-```
-
-
-```
-* * * * * * * * * * 
- *     *   *     * 
-  *   *     *   * 
-   * *       * * 
-    *         * 
-```
-
+### 40. Framed Hollow Diamond
+Print a framed hollow diamond using '*'. (A rectangle with a hollow diamond inside it). (Here, N = 5) 
 ```
 * * * * * * * * * * 
 * * * *     * * * * 

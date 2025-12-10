@@ -9,9 +9,9 @@ import java.util.Scanner;
  * Title        : FramedHollowDiamond.java
  * Author       : Sribinu P
  * Created On   : 09-12-2025
- * Topic        :
+ * Topic        : Star Pattern (Framed Hollow Diamond)
  * Difficulty   : Medium
- * Description  :
+ * Description  : Prints a rectangle completely filled with *, but the inside contains a hollow diamond shape.
  * ----------------------------------------------------------
  */
 
@@ -19,7 +19,7 @@ public class FramedHollowDiamond {
 
     public static void main(String[] args) {
         // Program SPT40: FramedHollowDiamond
-        //
+        // Formula: spaces= 2 * (n - i), stars= (j <= i)
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();

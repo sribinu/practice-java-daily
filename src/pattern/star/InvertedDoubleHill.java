@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT38
- * Question     :
+ * Program No   : SPT32
+ * Question     : Print an inverted double hill pattern
  * Title        : InvertedDoubleHill.java
  * Author       : Sribinu P
  * Created On   : 09-12-2025
  * Topic        : Star Pattern (Inverted Double HIll)
  * Difficulty   : Easy
- * Description  :
+ * Description  : Prints an inverted double hill pattern
  * ----------------------------------------------------------
  */
 
 public class InvertedDoubleHill {
 
     public static void main(String[] args) {
-        // Program SPT38: InvertedDoubleHill
+        // Program SPT32: InvertedDoubleHill
         // Formula: spaces=(n-i), stars=i, middle spaces=2*(n-i)
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
@@ -45,10 +45,10 @@ public class InvertedDoubleHill {
 }
 
 /* Output:
-Enter size N: 5
-* * * * * * * * * *
- * * * *   * * * *
-  * * *     * * *
-   * *       * *
-    *         *
+    Enter size N: 5
+    * * * * * * * * * *
+     * * * *   * * * *
+      * * *     * * *
+       * *       * *
+        *         *
  */

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT34
+ * Program No   : SPT36
  * Question     : Print an hourglass (sandglass) pattern using '*' of height 2N.
  * Title        : Hourglass.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Hourglass {
 
     public static void main(String[] args) {
-        // Program SPT34: Hourglass
+        // Program SPT36: Hourglass
         // Hourglass = Inverted Pyramid + Normal Pyramid (same N)
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

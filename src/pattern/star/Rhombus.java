@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT36
+ * Program No   : SPT38
  * Question     : Print a filled rhombus pattern of '*' with width N.
  * Title        : Rhombus.java
  * Author       : Sribinu P
@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Rhombus {
 
     public static void main(String[] args) {
-        // Program SPT36: Rhombus
+        // Program SPT38: Rhombus
         // Workflow: For each row print (N-i) leading spaces then N stars.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT37
+ * Program No   : SPT39
  * Question     : Print a hollow rhombus (tilted square) using '*'.
  * Title        : HollowRhombus.java
  * Author       : Sribinu P
@@ -19,8 +19,8 @@ import java.util.Scanner;
 public class HollowRhombus {
 
     public static void main(String[] args) {
-        // Program SPT37: HollowRhombus
-        // Formula: Print (N-i) spaces → then N columns where stars appear only on borders.
+        // Program SPT39: HollowRhombus
+        // Leading spaces = N - i; print stars = (i == 1 || i == n || j == 1 || j == n).
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();

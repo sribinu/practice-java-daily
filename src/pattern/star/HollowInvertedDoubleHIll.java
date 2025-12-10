@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT39
- * Question     :
+ * Program No   : SPT33
+ * Question     : Print a hollow inverted double hill pattern
  * Title        : HollowInvertedDoubleHIll.java
  * Author       : Sribinu P
  * Created On   : 09-12-2025
  * Topic        : Star Pattern (Hollow Double Hill)
  * Difficulty   : Easy
- * Description  :
+ * Description  : Prints a hollow inverted double hill pattern
  * ----------------------------------------------------------
  */
 
 public class HollowInvertedDoubleHIll {
 
     public static void main(String[] args) {
-        // Program SPT39: HollowInvertedDoubleHIll
-
+        // Program SPT33: HollowInvertedDoubleHIll
+        // Formula: spaces=(n-i), stars= (j == 1 || i == n || j == i), middle spaces=2*(n-i)
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();
@@ -51,10 +51,10 @@ public class HollowInvertedDoubleHIll {
 }
 
 /* Output:
-Enter size N: 5
-* * * * * * * * * *
- *     *   *     *
-  *   *     *   *
-   * *       * *
-    *         *
+    Enter size N: 5
+    * * * * * * * * * *
+     *     *   *     *
+      *   *     *   *
+       * *       * *
+        *         *
  */

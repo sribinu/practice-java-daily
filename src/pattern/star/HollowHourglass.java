@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : SPT35
+ * Program No   : SPT37
  * Question     : Print a hollow hourglass pattern (only edges).
  * Title        : HollowHourglass.java
  * Author       : Sribinu P
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class HollowHourglass {
 
     public static void main(String[] args) {
-        // Program SPT35: HollowHourglass
+        // Program SPT37: HollowHourglass
         // Hollow hourglass = decreasing width edges with increasing spaces, then reverse.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
