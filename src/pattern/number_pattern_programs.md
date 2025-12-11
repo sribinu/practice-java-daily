@@ -60,3 +60,33 @@ Print Pascal's triangle (binomial coefficients) up to N rows. (Here, N = 5)
     1   3   3   1   
   1   4   6   4   1   
 ```
+
+### 7. Palindromic Number Pyramid
+Print a numeric palindromic pyramid (e.g., 1 / 121 / 12321). (Here, N = 5)
+```
+    1
+   121
+  12321
+ 1234321
+123454321
+```
+
+### 8. Inverted Number Pyramid
+Print an inverted number pyramid starting from N. (Here, N = 5)
+```
+123454321
+ 1234321
+  12321
+   121
+    1
+```
+
+
+### 9. Sequential Number Pyramid
+Print rows with sequential numbering continuing across rows. (Here, N = 5)
+```
+   1 
+  2 3 
+ 4 5 6 
+7 8 9 10 
+```

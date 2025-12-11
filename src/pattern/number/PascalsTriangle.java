@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Author       : Sribinu P
  * Created On   : 10-12-2025
  * Topic        : Number Pattern (Pascal's Triangle)
- * Difficulty   : Easy
+ * Difficulty   : Intermediate
  * Description  : Each row contains the binomial coefficients, where every element is the sum of the two numbers above it.
  * ----------------------------------------------------------
  */
