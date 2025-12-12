@@ -37,7 +37,6 @@ public class SequentialNoPyramid {
             }
             System.out.println();
         }
-
         scan.close();
     }
 }

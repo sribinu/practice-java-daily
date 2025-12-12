@@ -90,3 +90,57 @@ Print rows with sequential numbering continuing across rows. (Here, N = 5)
  4 5 6 
 7 8 9 10 
 ```
+
+### 10. Binary Triangle
+Print triangle of 0s and 1s alternating by position (binary triangle). (Here, N = 5)
+```
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1 
+```
+
+### 11. Alternate Odd/Even Rows Pyramid
+Print pyramid where odd rows and even rows have different sequences. (Here, N = 5)
+```
+1 
+2 4 
+1 2 3 
+2 4 6 8 
+1 2 3 4 5 
+```
+
+### 12. Number Diamond (Palindromic)
+Print diamond shaped pattern using numbers (palindromic or sequential). (Here, N = 5)
+```
+        1 
+      1 2 1 
+    1 2 3 2 1 
+  1 2 3 4 3 2 1 
+1 2 3 4 5 4 3 2 1 
+  1 2 3 4 3 2 1 
+    1 2 3 2 1 
+      1 2 1 
+        1 
+```
+
+### 13. Sum Index (cell = row + column)
+Print pattern where each cell shows sum of row and column indices. (Here, N = 5)
+```
+2 3 4 5 6 
+3 4 5 6 7 
+4 5 6 7 8 
+5 6 7 8 9 
+6 7 8 9 10 
+```
+
+### 14. Triangular Multiplication Table
+Print triangular portion of multiplication table for N. (Here, N = 5)
+```
+1 
+2 4 
+3 6 9 
+4 8 12 16 
+5 10 15 20 25 
+```
