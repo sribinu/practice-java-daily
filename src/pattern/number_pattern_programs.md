@@ -144,3 +144,13 @@ Print triangular portion of multiplication table for N. (Here, N = 5)
 4 8 12 16 
 5 10 15 20 25 
 ```
+
+### 15. Reverse Number Triangle
+Print a reverse number triangle starting from N down to 1. (Here, N = 5)
+```
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1 
+```
