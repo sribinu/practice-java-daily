@@ -154,3 +154,33 @@ Print a reverse number triangle starting from N down to 1. (Here, N = 5)
 2 1 
 1 
 ```
+
+### 16. Spiral
+Print Spiral Number Pattern. (Here, N = 5)
+```
+   1   2   3   4   5
+  16  17  18  19   6
+  15  24  25  20   7
+  14  23  22  21   8
+  13  12  11  10   9
+```
+
+### 17. Reverse Spiral
+Print Reverse Spiral Number Pattern. (Here, N = 5)
+```
+  25  24  23  22  21
+  10   9   8   7  20
+  11   2   1   6  19
+  12   3   4   5  18
+  13  14  15  16  17
+```
+
+### 18. Anti-Clockwise Spiral
+Print Anti-Clockwise Spiral Number Pattern. (Here, N = 5)
+```
+   1  16  15  14  13
+   2  17  24  23  12
+   3  18  25  22  11
+   4  19  20  21  10
+   5   6   7   8   9
+```

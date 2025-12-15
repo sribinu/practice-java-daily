@@ -4,54 +4,54 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : NPT16
- * Question     : Print Spiral Number Pattern
- * Title        : Spiral.java
+ * Program No   : NPT17
+ * Question     : Print Reverse Spiral Number Pattern
+ * Title        : ReverseSpiral.java
  * Author       : Sribinu P
- * Created On   : 14-12-2025
- * Topic        : Number Pattern (Spiral)
+ * Created On   : 15-12-2025
+ * Topic        : Number Pattern (Reverse Spiral)
  * Difficulty   : Hard
- * Description  : Prints numbers from 1 to N*N in spiral order.
+ * Description  : Prints numbers from N*N to 1 in spiral order.
  * ----------------------------------------------------------
  */
 
-public class Spiral {
+public class ReverseSpiral {
 
     public static void main(String[] args) {
-        // Program NPT16: Spiral
+        // Program NPT17: ReverseSpiral
         // Fill top → right → bottom → left, then shrink boundaries.
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();
 
         int[][] matrix = new int[n][n];
-        int num = 1;
+        int num = n * n;
         int top = 0, right = n - 1;
         int left = 0, bottom = n - 1;
 
-        while (num <= n * n) {
+        while (num >= 1) {
 
             // Left to Right
             for (int i = left; i <= right ; i++) {
-                matrix[top][i] = num++;
+                matrix[top][i] = num--;
             }
             top++;
 
             // Top to Bottom
             for (int i = top; i <= bottom ; i++) {
-                matrix[i][right] = num++;
+                matrix[i][right] = num--;
             }
             right--;
 
             // Right to Left
             for (int i = right; i >= left ; i--) {
-                matrix[bottom][i] = num++;
+                matrix[bottom][i] = num--;
             }
             bottom--;
 
             // Bottom to Top
             for (int i = bottom; i >= top ; i--) {
-                matrix[i][left] = num++;
+                matrix[i][left] = num--;
             }
             left++;
         }
@@ -68,9 +68,9 @@ public class Spiral {
 
 /* Output:
     Enter size N: 5
-       1   2   3   4   5
-      16  17  18  19   6
-      15  24  25  20   7
-      14  23  22  21   8
-      13  12  11  10   9
+      25  24  23  22  21
+      10   9   8   7  20
+      11   2   1   6  19
+      12   3   4   5  18
+      13  14  15  16  17
  */
