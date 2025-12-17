@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Created On   : 16-12-2025
  * Topic        : Alphabet Pattern (Alphabet Triangle)
  * Difficulty   : Easy
- * Description  :
+ * Description  : Print an alphabet triangle starting from A, where each row prints characters from A up to the row number.
  * ----------------------------------------------------------
  */
 
@@ -19,7 +19,7 @@ public class AlphabetTriangle {
 
     public static void main(String[] args) {
         // Program APT1: AlphabetTriangle
-
+        // Start ch = 'A' for each row and increment it using ch++
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();
