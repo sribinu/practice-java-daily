@@ -1,10 +1,10 @@
-package pattern.mixed;
+package pattern.advanced;
 
 import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : MPT1
+ * Program No   : ADPT1
  * Question     : Print a pyramid where number and '*' alternate or mix in rows.
  * Title        : NumberStarPyramid.java
  * Author       : Sribinu P
@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class NumberStarPyramid {
 
     public static void main(String[] args) {
-        // Program MPT1: NumberStarPyramid
+        // Program ADPT1: NumberStarPyramid
         // Odd rows → numbers | Even rows → stars
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");

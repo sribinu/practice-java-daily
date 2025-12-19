@@ -1,25 +1,25 @@
-package pattern.mixed;
+package pattern.advanced;
 
 import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : MPT2
+ * Program No   : ADPT2
  * Question     : Print a square of size N where borders show increasing numbers.
  * Title        : NumberBorderSquare.java
  * Author       : Sribinu P
  * Created On   : 18-12-2025
- * Topic        : Mixed Pattern (Number Border Square)
+ * Topic        : Advanced Pattern (Number Border Square)
  * Difficulty   : Easy
- * Description  :
+ * Description  : Print a square of size N × N where only the border contains increasing numbers, and the inside is blank.
  * ----------------------------------------------------------
  */
 
 public class NumberBorderSquare {
 
     public static void main(String[] args) {
-        // Program MPT2: NumberBorderSquare
-
+        // Program ADPT2: NumberBorderSquare
+        // Prints increasing numbers only on the border of a square
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter size N: ");
         int n = scan.nextInt();

@@ -61,7 +61,7 @@ Print Pascal's triangle (binomial coefficients) up to N rows. (Here, N = 5)
   1   4   6   4   1   
 ```
 
-### 7. Palindromic Number Pyramid
+### 7. Palindromic Number Pyramid / Hill Number Pattern
 Print a numeric palindromic pyramid (e.g., 1 / 121 / 12321). (Here, N = 5)
 ```
     1
