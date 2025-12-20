@@ -54,9 +54,19 @@ Print an alphabet triangle where each cell shows Fibonacci sequence values. (Her
   55  89 144 233 377
 ```
 
+### 6. Palindromic Number Triangle
+Print a centered palindromic triangle of numbers using indices. (Here, N = 5)
+```
+        1 
+      2 1 2 
+    3 2 1 2 3 
+  4 3 2 1 2 3 4 
+5 4 3 2 1 2 3 4 5 
+```
+
 ## Star Patterns
 
-### 6. K Pattern (Star)
+### 7. K Pattern (Star)
 Print the letter 'K' using '*' for a given height. (Here, N = 7)
 ```
 *     *       
