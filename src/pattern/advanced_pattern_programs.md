@@ -64,6 +64,16 @@ Print a centered palindromic triangle of numbers using indices. (Here, N = 5)
 5 4 3 2 1 2 3 4 5 
 ```
 
+### 7. Centered Number Triangle
+Print a centered number triangle with row-based sequential numbers. (Here, N = 5)
+```
+    1 
+   2 3 
+  3 4 5 
+ 4 5 6 7 
+5 6 7 8 9 
+```
+
 ## Star Patterns
 
 ### 7. K Pattern (Star)
