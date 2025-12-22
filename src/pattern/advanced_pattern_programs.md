@@ -74,6 +74,36 @@ Print a centered number triangle with row-based sequential numbers. (Here, N = 5
 5 6 7 8 9 
 ```
 
+### 8. Centered Reverse Number Triangle
+Print a centered number triangle starting from decreasing values up to N. (Here, N = 7)
+```
+       7 
+      6 7 
+     5 6 7 
+    4 5 6 7 
+   3 4 5 6 7 
+  2 3 4 5 6 7 
+ 1 2 3 4 5 6 7 
+```
+
+### 9. Centered Mirror Number Triangle
+Print a centered mirror number triangle. (Here, N = 7)
+```
+ 1 2 3 4 5 6 7 
+  2 3 4 5 6 7 
+   3 4 5 6 7 
+    4 5 6 7 
+     5 6 7 
+      6 7 
+       7 
+      6 7 
+     5 6 7 
+    4 5 6 7 
+   3 4 5 6 7 
+  2 3 4 5 6 7 
+ 1 2 3 4 5 6 7 
+```
+
 ## Star Patterns
 
 ### 7. K Pattern (Star)
