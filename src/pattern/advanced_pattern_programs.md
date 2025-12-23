@@ -104,6 +104,16 @@ Print a centered mirror number triangle. (Here, N = 7)
  1 2 3 4 5 6 7 
 ```
 
+### 10. Column-wise Number Triangle
+Prints a number triangle filled column-wise, not row-wise. (Here, N = 5)
+```
+1 
+2 6 
+3 7 10 
+4 8 11 13 
+5 9 12 14 15 
+```
+
 ## Star Patterns
 
 ### 7. K Pattern (Star)
