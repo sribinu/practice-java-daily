@@ -12,6 +12,16 @@ Print a pyramid where number and '*' alternate or mix in rows. (Here, N = 5)
 5 5 5 5 5 
 ```
 
+### 2. Odd Number Star Triangle
+Print an odd number star triangle. (Here, N = 5)
+```
+1
+1*3
+1*3*5
+1*3*5*7
+1*3*5*7*9
+```
+
 ## Number Patterns
 
 ### 2. Number Border Square
