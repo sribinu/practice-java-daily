@@ -22,6 +22,18 @@ Print an odd number star triangle. (Here, N = 5)
 1*3*5*7*9
 ```
 
+### 3. Number Prefix – Alphabet Fill Right Triangle
+Print a Number–Alphabet Right Triangle with row-wise filling. (Here, N = 7)
+```
+1 A A A A A A 
+1 2 B B B B B 
+1 2 3 C C C C 
+1 2 3 4 D D D 
+1 2 3 4 5 E E 
+1 2 3 4 5 6 F 
+1 2 3 4 5 6 7 
+```
+
 ## Number Patterns
 
 ### 2. Number Border Square
@@ -115,13 +127,23 @@ Print a centered mirror number triangle. (Here, N = 7)
 ```
 
 ### 10. Column-wise Number Triangle
-Prints a number triangle filled column-wise, not row-wise. (Here, N = 5)
+Print a number triangle filled column-wise, not row-wise. (Here, N = 5)
 ```
 1 
 2 6 
 3 7 10 
 4 8 11 13 
 5 9 12 14 15 
+```
+
+### 11. Zigzag Number Triangle / Snake Number Triangle
+Print a left-aligned zigzag number triangle. (Here, N = 5) 
+```
+ 1 
+ 3  2 
+ 4  5  6 
+10  9  8  7 
+11 12 13 14 15 
 ```
 
 ## Star Patterns
