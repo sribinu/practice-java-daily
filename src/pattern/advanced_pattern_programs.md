@@ -160,6 +160,20 @@ Print a Cyclic Number Matrix (Row-wise Rotation). (Here, N = 9)
 9 1 2 3 4 5 6 7 8 
 ```
 
+### 12. Concentric Square Number Pattern
+Print a Concentric Square Number Pattern. (Here, N = 5)
+```
+5 5 5 5 5 5 5 5 5 
+5 4 4 4 4 4 4 4 5 
+5 4 3 3 3 3 3 4 5 
+5 4 3 2 2 2 3 4 5 
+5 4 3 2 1 2 3 4 5 
+5 4 3 2 2 2 3 4 5 
+5 4 3 3 3 3 3 4 5 
+5 4 4 4 4 4 4 4 5 
+5 5 5 5 5 5 5 5 5 
+```
+
 ## Star Patterns
 
 ### 7. K Pattern (Star)
