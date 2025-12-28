@@ -176,7 +176,7 @@ Print a Concentric Square Number Pattern. (Here, N = 5)
 
 ## Star Patterns
 
-### 7. K Pattern (Star)
+### 1. K Pattern (Star)
 Print the letter 'K' using '*' for a given height. (Here, N = 7)
 ```
 *     *       
@@ -188,3 +188,14 @@ Print the letter 'K' using '*' for a given height. (Here, N = 7)
 *     *     
 ```
 
+## Alphabet Patterns
+
+### 1. Reverse Alphabet Triangle
+Print a Reverse Alphabet Triangle. (Here, N = 5)
+```
+Z 
+Z Y 
+Z Y X 
+Z Y X W 
+Z Y X W V 
+```
