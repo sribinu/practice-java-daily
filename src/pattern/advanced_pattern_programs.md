@@ -199,3 +199,13 @@ Z Y X
 Z Y X W 
 Z Y X W V 
 ```
+
+### 2. Centered Reverse Alphabet Triangle
+Print a Centered Reverse Alphabet Triangle. (Here, N = 5)
+```
+    Z 
+   Y Z 
+  X Y Z 
+ W X Y Z 
+V W X Y Z 
+```
