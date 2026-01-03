@@ -1,4 +1,4 @@
-package array.basic;
+package array;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -12,8 +12,7 @@ import java.util.Arrays;
  * Created On   : 30-12-2025
  * Topic        : Arrays (Basic)
  * Difficulty   : Easy
- * Description  : This program finds the second largest
- *                element in an array using sorting.
+ * Description  : This program finds the second largest element in an array using sorting.
  * ----------------------------------------------------------
  */
 
