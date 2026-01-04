@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
- * Program No   : ARR6
+ * Program No   : ARR7
  * Question     : Count how many even and odd elements are in the array.
  * Title        : CountEvenOddArray.java
  * Author       : Sribinu P
  * Created On   : 04-01-2026
  * Topic        : Array (Even & Odd Count)
  * Difficulty   : Easy
- * Description  :
+ * Description  : This program reads N integers into an array and counts how many elements are even and how many are odd.
  * ----------------------------------------------------------
  */
 
@@ -19,7 +19,7 @@ public class CountEvenOddArray {
 
     public static void main(String[] args) {
         // Program ARR6: CountEvenOddArray
-
+        // Number % 2 == 0 → Even, Number % 2 == 1 → Odd
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter no of elements: ");

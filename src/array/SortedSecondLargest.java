@@ -9,8 +9,8 @@ import java.util.Arrays;
  * Question     : Find second largest element using sorting
  * Title        : SecondLargestWithSort.java
  * Author       : Sribinu P
- * Created On   : 30-12-2025
- * Topic        : Arrays (Basic)
+ * Created On   : 02-01-2026
+ * Topic        : Array (Second Largest using sorting)
  * Difficulty   : Easy
  * Description  : This program finds the second largest element in an array using sorting.
  * ----------------------------------------------------------
@@ -20,8 +20,7 @@ public class SortedSecondLargest {
 
     public static void main(String[] args) {
         // Program ARR5: SecondLargestWithSort
-        // Workflow: Read N → sort → find second largest
-
+        // Read N → Sort → check from last → skip duplicates
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter number of elements: ");
@@ -65,7 +64,13 @@ public class SortedSecondLargest {
     }
 }
 
-
 /* Output:
-
+    Enter number of elements: 5
+    Enter 5 elements:
+    34
+    65
+    878
+    9856
+    67
+    Second largest element = 878
  */

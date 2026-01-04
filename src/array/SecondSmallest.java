@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Created On   : 03-01-2026
  * Topic        : Array (Second Smallest)
  * Difficulty   : Easy
- * Description  :
+ * Description  : This program reads N elements into an array and finds the second smallest distinct element by scanning the array only once (no sorting).
  * ----------------------------------------------------------
  */
 
@@ -19,7 +19,7 @@ public class SecondSmallest {
 
     public static void main(String[] args) {
         // Program ARR6: SecondSmallest
-
+        // If current < min → shift min to secondMin
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter no of elements: ");
