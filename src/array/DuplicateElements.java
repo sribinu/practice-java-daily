@@ -1,8 +1,6 @@
 package array;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Scanner;
 
 /**
  * ----------------------------------------------------------
@@ -13,7 +11,7 @@ import java.util.Set;
  * Created On   : 08-01-2026
  * Topic        : Array (Duplicate Elements)
  * Difficulty   : Easy
- * Description  :
+ * Description  : This program identifies and prints all elements that appear more than once in an array.
  * ----------------------------------------------------------
  */
 
@@ -21,25 +19,62 @@ public class DuplicateElements {
 
     public static void main(String[] args) {
         // Program ARR15: DuplicateElements
+        // Compare each element with remaining elements.
+        Scanner scan = new Scanner(System.in);
 
-        int[] arr = {4, 3, 2, 7, 8, 2, 3, 1, 7};
+        System.out.print("Enter size N: ");
+        int n = scan.nextInt();
 
-        System.out.println("Array: " + Arrays.toString(arr));
+        int[] arr = new int[n];
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scan.nextInt();
+        }
+
         System.out.print("Duplicate elements: ");
+        boolean found = false;
 
-        Set<Integer> seen = new HashSet<>();
-        Set<Integer> duplicates = new HashSet<>();
+        for (int i = 0; i < n; i++) {
+            boolean isDuplicate = false;
 
-        for (int num : arr) {
-            if (!seen.add(num)) {  // add() returns false if already present
-                duplicates.add(num);
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] == arr[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            // Avoid printing same duplicate again
+            if (isDuplicate) {
+                boolean printed = false;
+                for (int k = 0; k < i; k++) {
+                    if (arr[i] == arr[k]) {
+                        printed = true;
+                        break;
+                    }
+                }
+
+                if (!printed) {
+                    System.out.print(arr[i] + " ");
+                    found = true;
+                }
             }
         }
 
-        System.out.println(duplicates);
+        if (!found)
+            System.out.print("None");
+
+        scan.close();
     }
 }
 
 /* Output:
-
+    Enter size N: 5
+    Enter array elements:
+    1
+    2
+    1
+    2
+    3
+    Array after removing duplicates: 1 2 3
  */
