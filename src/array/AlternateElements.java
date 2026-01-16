@@ -19,7 +19,7 @@ public class AlternateElements {
 
     public static void main(String[] args) {
         // Program ARR22: AlternateElements
-
+        // Traverse the array by increasing index by 2 and print each element.
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter array size: ");

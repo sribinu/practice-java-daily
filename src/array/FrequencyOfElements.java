@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Created On   : 14-01-2026
  * Topic        : Array (Count Frequency of Elements)
  * Difficulty   : Medium
- * Description  :
+ * Description  : This program counts how many times each element appears in an array and prints the frequency.
  * ----------------------------------------------------------
  */
 
@@ -19,6 +19,7 @@ public class FrequencyOfElements {
 
     public static void main(String[] args) {
         // Program ARR21: FrequencyOfElements
+        // For each element, compare it with all other elements and count matches, while skipping already counted values.
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter array size: ");
@@ -35,12 +36,10 @@ public class FrequencyOfElements {
         System.out.println("\nElement : Frequency");
 
         for (int i = 0; i < n; i++) {
-
             if (visited[i])
                 continue;
 
             int count = 1;
-
             for (int j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
@@ -56,5 +55,20 @@ public class FrequencyOfElements {
 }
 
 /* Output:
+    Enter array size: 7
+    Enter array elements:
+    1
+    2
+    3
+    1
+    2
+    4
+    5
 
+    Element : Frequency
+    1 : 2
+    2 : 2
+    3 : 1
+    4 : 1
+    5 : 1
  */
