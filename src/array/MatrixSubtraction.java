@@ -20,6 +20,7 @@ public class MatrixSubtraction {
 
     public static void main(String[] args) {
         // Program ARR29: MatrixSubtraction
+        // result[i][j] = matrix1[i][j] - matrix2[i][j]
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
         int rows = scan.nextInt();
@@ -29,7 +30,7 @@ public class MatrixSubtraction {
 
         int[][] arr1 = new int[rows][columns];
         int[][] arr2 = new int[rows][columns];
-        int[][] sum = new int[rows][columns];
+        int[][] diff = new int[rows][columns];
 
         System.out.println("Enter elements of first matrix: ");
         for (int i = 0; i < rows; i++) {
@@ -47,14 +48,14 @@ public class MatrixSubtraction {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                sum[i][j] = arr1[i][j] - arr2[i][j];
+                diff[i][j] = arr1[i][j] - arr2[i][j];
             }
         }
 
-        System.out.println("Sum of two matrices:");
+        System.out.println("Resultant matrix after subtraction:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                System.out.print(sum[i][j] + " ");
+                System.out.print(diff[i][j] + " ");
             }
             System.out.println();
         }
@@ -75,7 +76,7 @@ public class MatrixSubtraction {
     3
     2
     1
-    Sum of two matrices:
+    Resultant matrix after subtraction:
     4 4
     4 4
  */
