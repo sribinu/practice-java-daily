@@ -45,3 +45,20 @@ public class StringPalindrome {
     Enter a string: madam
     It is a palindrome
  */
+
+/*  Another Logic:
+        String str = scan.nextLine();
+
+        int left = 0;
+        int right = str.length() - 1;
+        boolean isPalindrome = true;
+
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                isPalindrome = false;
+                break;
+            }
+            left++;
+            right--;
+        }
+ */
