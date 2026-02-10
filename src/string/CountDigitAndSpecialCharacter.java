@@ -53,5 +53,4 @@ public class CountDigitAndSpecialCharacter {
         digits++;
     else if (!(ch >= 'A' && ch <= 'Z') && !(ch >= 'a' && ch <= 'z') && ch != ' ')
         special++;
-
  */
