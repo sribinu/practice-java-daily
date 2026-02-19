@@ -45,7 +45,7 @@ public class SubstringCheck {
             }
         }
 
-        if (mainStr.contains(subStr)) {
+        if (found) {
             System.out.println("Substring found");
         } else {
             System.out.println("Substring not found");
