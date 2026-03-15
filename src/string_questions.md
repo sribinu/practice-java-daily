@@ -34,11 +34,19 @@
 32. Check if a string is a pangram (contains all alphabets). 
 33. Count frequency of each letter ignoring case. 
 34. Remove all non-alphabet characters. 
-35. Convert sentence to title case or sentence case. 
-36. Replace each character with next ASCII character. 
-37. Reverse of encode — shift characters back. 
-38. Count how many times a substring appears in string. 
-39. Check if entire sentence is palindrome word by word. 
-40. Reverse string recursively. 
-41. Implement basic run-length encoding (e.g., “aaabb” → “a3b2”). 
-42. Find longest substring without repeating characters.
+35. Convert sentence to title case. 
+36. Convert sentence to sentence case. 
+37. Replace each character with next ASCII character. 
+38. Reverse of encode — shift characters back. 
+39. Count how many times a substring appears in string. 
+40. Check if entire sentence is palindrome word by word. 
+41. Reverse string recursively. 
+42. Implement basic run-length encoding (e.g., “aaabb” → “a3b2”). 
+43. Find longest substring without repeating characters.
+44. Find the longest substring without repeating characters and return the substring itself. 
+45. Find all the permutations of a string. 
+46. Find all subsets of a string.
+47. Find the longest repeating sequence in a string.
+48. Divide a string in 'N' equal parts.
+49. Find maximum and minimum occurring character in a string.
+50. Replace the spaces of a string with a specific character.
