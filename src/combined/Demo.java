@@ -2,7 +2,7 @@ package combined;
 
 /**
  * ----------------------------------------------------------
- * Program No   : COM1
+ * Program No   : COM2
  * Question     : Write a program to show the order of execution between static block, instance block, and constructor.
  * Title        : Demo.java
  * Author       : Sribinu P
@@ -28,7 +28,7 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        // Program COM1: Demo
+        // Program COM2: Demo
         // Static → Instance → Constructor (SIC order)
         System.out.println("Main Method Started");
 
